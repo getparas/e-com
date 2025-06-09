@@ -1,0 +1,30 @@
+{
+  "name": "E-Commerce🚀",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "frontend": "cd frontend && pnpm run dev",
+    "backend": "nodemon backend/app.js",
+    "dev": "concurrently \"pnpm run frontend\" \"pnpm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^8.2.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4",
+    "multer": "1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "react-hot-toast": "^2.4.1"
+  }
+}

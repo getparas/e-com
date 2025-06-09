@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Subjectivity";
+  src: local("Subjectivity"),
+    url("./fonts/Subjectivity-Regular.otf") format("opentype");
+}
+
+:root {
+  font-family: "Subjectivity", sans-serif; /* Add a fallback font */
+}
